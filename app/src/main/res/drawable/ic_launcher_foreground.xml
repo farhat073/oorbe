@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background color is #1E1E2E (ic_launcher_background) -->
+    
+    <!-- Orbit 1 (Rotated -30 degrees) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-30">
+        <path
+            android:pathData="M 20,54 A 34,14 0 1,0 88,54 A 34,14 0 1,0 20,54"
+            android:strokeColor="#0984E3"
+            android:strokeWidth="5"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round"/>
+    </group>
+
+    <!-- Orbit 2 (Rotated 30 degrees) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="30">
+        <path
+            android:pathData="M 20,54 A 34,14 0 1,0 88,54 A 34,14 0 1,0 20,54"
+            android:strokeColor="#00B894"
+            android:strokeWidth="5"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round"/>
+    </group>
+
+    <!-- Side Arc Left -->
+    <path
+        android:pathData="M 18,36 A 36,36 0 0,0 18,72"
+        android:strokeColor="#00B894"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"/>
+
+    <!-- Side Arc Right -->
+    <path
+        android:pathData="M 90,36 A 36,36 0 0,1 90,72"
+        android:strokeColor="#00B894"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"/>
+</vector>

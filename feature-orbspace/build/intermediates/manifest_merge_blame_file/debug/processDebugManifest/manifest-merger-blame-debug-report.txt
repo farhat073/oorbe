@@ -1,0 +1,40 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oorbitt.launcher.orbspace" >
+4
+5    <uses-sdk android:minSdkVersion="26" />
+6
+7    <!-- Needed for drawing over other apps if we need to show a bubble, though OrbSpace is primarily in the launcher. -->
+8    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+8-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:5:5-78
+8-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:5:22-75
+9
+10    <application>
+10-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:7:5-20:19
+11        <service
+11-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:8:9-19:19
+12            android:name="com.oorbitt.launcher.orbspace.ScrollTrackerService"
+12-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:9:13-49
+13            android:exported="false"
+13-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:10:13-37
+14            android:label="OrbSpace Scroll Tracker"
+14-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:11:13-52
+15            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+15-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:12:13-79
+16            <intent-filter>
+16-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:13:13-15:29
+17                <action android:name="android.accessibilityservice.AccessibilityService" />
+17-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:14:17-92
+17-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:14:25-89
+18            </intent-filter>
+19
+20            <meta-data
+20-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:16:13-18:66
+21                android:name="android.accessibilityservice"
+21-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:17:17-60
+22                android:resource="@xml/scroll_tracker_service" />
+22-->/home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:18:17-63
+23        </service>
+24    </application>
+25
+26</manifest>

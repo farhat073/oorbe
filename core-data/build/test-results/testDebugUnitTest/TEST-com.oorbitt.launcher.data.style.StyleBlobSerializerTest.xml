@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.oorbitt.launcher.data.style.StyleBlobSerializerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-09T01:23:03" hostname="pocketpc" time="0.15">
+  <properties/>
+  <testcase name="testExportImportRoundTrip" classname="com.oorbitt.launcher.data.style.StyleBlobSerializerTest" time="0.098"/>
+  <testcase name="testImportFaultToleranceAndMigration" classname="com.oorbitt.launcher.data.style.StyleBlobSerializerTest" time="0.001"/>
+  <testcase name="testDiffComputation" classname="com.oorbitt.launcher.data.style.StyleBlobSerializerTest" time="0.045"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

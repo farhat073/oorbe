@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.oorbitt.launcher.data.repository.VaultRepositoryImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-09T01:23:19" hostname="pocketpc" time="2.795">
+  <properties/>
+  <testcase name="saveMemo_encryptsTitleAndBlocks_thenInsertsToDao" classname="com.oorbitt.launcher.data.repository.VaultRepositoryImplTest" time="2.686"/>
+  <testcase name="getAllMemos_returnsDecryptedMemos" classname="com.oorbitt.launcher.data.repository.VaultRepositoryImplTest" time="0.106"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/pocketpc/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.17/e3c251a39dc90badaf71c83427ba46840f219d8d/byte-buddy-agent-1.14.17.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

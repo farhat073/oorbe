@@ -1,0 +1,2 @@
+com.oorbitt.launcher.onboarding
+style Theme_Onboarding

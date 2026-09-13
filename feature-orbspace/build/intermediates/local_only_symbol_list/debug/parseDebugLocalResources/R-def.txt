@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+string accessibility_service_description
+xml scroll_tracker_service

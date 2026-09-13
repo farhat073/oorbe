@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">OrbSpace uses this service to track scroll events on social media apps like Instagram and YouTube for digital hygiene.</string>
+</resources>

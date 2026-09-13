@@ -1,0 +1,863 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:2:1-89:12
+MERGED from [:feature-home] /home/pocketpc/Projects/oorbE/feature-home/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-drawer] /home/pocketpc/Projects/oorbE/feature-drawer/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-26:12
+MERGED from [:feature-search] /home/pocketpc/Projects/oorbE/feature-search/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-settings] /home/pocketpc/Projects/oorbE/feature-settings/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-gesture] /home/pocketpc/Projects/oorbE/feature-gesture/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-iconpack] /home/pocketpc/Projects/oorbE/feature-iconpack/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-theme] /home/pocketpc/Projects/oorbE/feature-theme/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-backup] /home/pocketpc/Projects/oorbE/feature-backup/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-shizuku] /home/pocketpc/Projects/oorbE/feature-shizuku/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-premium] /home/pocketpc/Projects/oorbE/feature-premium/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-applock] /home/pocketpc/Projects/oorbE/feature-applock/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-profiles] /home/pocketpc/Projects/oorbE/feature-profiles/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-vault] /home/pocketpc/Projects/oorbE/feature-vault/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-wellness] /home/pocketpc/Projects/oorbE/feature-wellness/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-stylehub] /home/pocketpc/Projects/oorbE/feature-stylehub/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:core-data] /home/pocketpc/Projects/oorbE/core-data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-20:12
+MERGED from [:core-ui] /home/pocketpc/Projects/oorbE/core-ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:core-platform] /home/pocketpc/Projects/oorbE/core-platform/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:core-security] /home/pocketpc/Projects/oorbE/core-security/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-9:12
+MERGED from [io.insert-koin:koin-androidx-compose:4.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/3c3b007763287da89eff55cbad8d0ed4/transformed/koin-androidx-compose-4.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [io.insert-koin:koin-android:4.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/f9a3fa803b21bb88dbb26088b49eaec2/transformed/koin-android-4.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] /home/pocketpc/.gradle/caches/8.11.1/transforms/807869a86f6b69589ade368a02686976/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f96e78c0e092bb2f6ee4208c41764176/transformed/constraintlayout-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/70cd0a42a8795d273e8d1ed42b4b34f4/transformed/coil-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/27277b8a34fe1871b41d2d38a760a960/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/e1873017cb6f39b4647a60fde0d9c679/transformed/coil-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/29d17d2619bc0e4026fe43a50c96f9cd/transformed/coil-base-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/243122ffc4db3fecab715ce57fb09462/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/228157824ff1fb2aa90970df94bbd55f/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/pocketpc/.gradle/caches/8.11.1/transforms/7d16bac4f8f0210f9adbf9ec60f1aa4e/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/55bc4f9c1f04e2fd7286d9aed3c963b1/transformed/viewpager2-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/14a053e4bf9e4107bfdb121c231f8d08/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6facde0155e1082d858fcf8a70dbbb2/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/11fa0fd77e5519d70d1164d378f3439d/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/600e7b83a986517ea7ce0077a08a142d/transformed/navigation-common-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/064d4e139ba0016806cf8828d870cf11/transformed/navigation-runtime-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/249c86024d0ea936e567125c62b18db7/transformed/navigation-common-ktx-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/9bd5365d818b6cf5d59fdd1147f7e093/transformed/navigation-runtime-ktx-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/a09635e70d9b0dd7996a837de418a59c/transformed/navigation-compose-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.billingclient:billing-ktx:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/1a12aa898242da33ebd223e033f4e59d/transformed/billing-ktx-7.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:2:1-38:12
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/827820e4d7fc41fdca25813f531a663f/transformed/play-services-location-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/2172cbd1ace20bf0f3cec8f6932f8852/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/29932f166b81a116c55a0385a87a172f/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/51c2cd87cb7b3e1156e1e696d65f74ca/transformed/fragment-1.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/cdf4a79c4e655486f62af1a33cbe0e25/transformed/fragment-ktx-1.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/pocketpc/.gradle/caches/8.11.1/transforms/75f40acf92adf9fdbbec851c4c28771f/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.3] /home/pocketpc/.gradle/caches/8.11.1/transforms/8b91086132f9a7489def4adc280e2e6a/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/9226ed1a19c16c480d4acb7f7fdc3abb/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/4a778de3cfefd0e2053b34a590c62a9e/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6588cb875808a429cd18d94648f2871b/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/cf4ca4b43f0efdb22cf87c554d95fb5d/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/9acda1f33270c851c3a2e97e9ac1e7c0/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/4d91548f03682a65a25482a60aafab2e/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6233e8cb99c7f798cd195f01e1df2601/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/4c17a971edde0f908164a9f6d008ff21/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/686bf4ac13609bdc755cb79c99acc35c/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/41e43b98b2a50f135241594a2c9c75a5/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/a03679e26bd676c8903a6ee310589371/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/48b88b0a693a72d29ff1f4180d538c1b/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.9.3] /home/pocketpc/.gradle/caches/8.11.1/transforms/104f6e5c1e4e08ef80d001b1496857b8/transformed/activity-compose-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/42af754980296b4299230ab1e4ef7d0c/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/61e13d70452b18d191610f71c4c66052/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette-ktx:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/9d7e32324ad09454e28626407685ea58/transformed/palette-ktx-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/5669d021baed0ee754bdf106d9f4dcb2/transformed/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/409b509cb487a116c398e213d65cfe19/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/7fba071a569e80a7444a8af2de5ce1b9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/5e56c98a47e080015e3362de11597bc2/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/668421b23370d20108eadf1ee53255c7/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/85d1a6637dfe4c403cbb9933619addf8/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/1e2015130a14901ce7a8667c663a32bd/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/75ec04a5194cd77902c4d158fa55e3cc/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/6db71c592820af446a01ac9b7b11c199/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/0e0bbf7bed0dbb86919ff7b29eeb4acc/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/371ea0ca743b912ccb50b466391ad12e/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/6a5700a7cb08a6bc175d482959855d3a/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/ed51862c06a00050458ecfe078ffa7dc/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/3fb1f29a225658e9fd7c356d13500e15/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/26a2afd1678369884995802efeae3f6f/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/bbbfc2c48354967e708b7c107bf442b8/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/502d4ef195d3596fa5d17a3215886ce6/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/728fbd6736df74f34e39601f1ba70c0e/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/3540b92f549aeec0c32d8130a33653a3/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/e78dbd733623c4798be48160a68f08cb/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/9724028e716028770de04c1c3c899d32/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/8f4e1bbf99b4085424648e070e2b41e9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/955d1b44e37a8c0e3aae7b48f05c91e8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/a6ba522600c4aec9c50cf76eba8d4f57/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/8ef28261aaad501043b6393b7fcb053f/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/68517f5ac0726308cfa20e47c833facc/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [org.jetbrains.androidx.core:core-bundle-android-debug:1.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/ff778b5e2e67be35d1d580eb12ca773f/transformed/core-bundle-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d9b82c49729fbc7abd1da16856bb91c5/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/3408075106e9dcb379da5486a5673c97/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/cce8b36a613f5734e8a9d475d9f0fdaf/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/4d41e98e5eb955f2e0bbba5a89b9a340/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/69592f885aaa263c04e7f15d2b59e23d/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6f763ce38ed30a7700cb098ccfd2cdcd/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6d5223d8bf1e1fb8271c180730b8ad35/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/3f74dd929bb3b6dfb3db72da3c3a26e8/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/5cec42a18ef3104b3fb71cb6c52db70d/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /home/pocketpc/.gradle/caches/8.11.1/transforms/9c785b5d87c83f26835e22eb1476459b/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:17:1-22:12
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:2:1-16:12
+MERGED from [dev.rikka.shizuku:api:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/d1a39eecdc37878e2f278ddcbfe067a8/transformed/api-13.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/63c2d3b3438cdd0cbb24eebe3104ef0b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/ab8765dd30a1d172c7876b28be2fbfeb/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [dev.rikka.shizuku:shared:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/37422961b1329d474ed322eabee8142e/transformed/shared-13.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/8a193bf232097783c8f83a28c7a3061e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/29f7301748497641ad17daa098483f49/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/6b84852a758720fc7a5c181fdec11d4f/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/0fd1980b63c25e4e093dfc52b3be0416/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/a6fb9d0c0995a4710bdfddb642f831df/transformed/transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/0f061aca97d70accf8d2d47b2283f7b2/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/4ffc0864b59846ce18baf0dda5d62988/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/526679e206bf8f81e7aec7e26fa39bf9/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/b473ba4ee573cbde0f7555c1dde7eeeb/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/abb1eaeb026b4cb5d43ab2655b273334/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/9b2da180de1e4f6fbb9924a197343954/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [dev.rikka.shizuku:aidl:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/7238ed5687fd0ce2d022f88589275285/transformed/aidl-13.1.5/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:6:5-7:53
+	tools:ignore
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:7:9-50
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:6:22-74
+uses-permission#android.permission.REQUEST_DELETE_PACKAGES
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:10:5-82
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:10:22-79
+uses-permission#android.permission.BIND_APPWIDGET
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:13:5-73
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:13:22-70
+uses-permission#android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:16:5-93
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:16:22-90
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:19:22-69
+uses-permission#android.permission.SET_WALLPAPER_HINTS
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:20:22-75
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:23:5-24:47
+	tools:ignore
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:23:22-75
+uses-permission#android.permission.VIBRATE
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:27:22-63
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:30:5-71
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:30:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:33:5-65
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:33:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:36:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:36:22-64
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:39:5-69
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:39:22-66
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:42:5-76
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:42:22-73
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:45:5-76
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:45:22-73
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:48:5-72
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:48:22-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:51:5-72
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:51:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:54:5-107
+	android:maxSdkVersion
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:54:78-104
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:54:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:55:5-76
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:55:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:56:5-75
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:56:22-72
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:57:5-75
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:57:22-72
+application
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:59:5-88:19
+INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:59:5-88:19
+MERGED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-24:19
+MERGED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-24:19
+MERGED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-18:19
+MERGED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-18:19
+MERGED from [io.insert-koin:koin-android:4.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/f9a3fa803b21bb88dbb26088b49eaec2/transformed/koin-android-4.0.1/AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android:4.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/f9a3fa803b21bb88dbb26088b49eaec2/transformed/koin-android-4.0.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f96e78c0e092bb2f6ee4208c41764176/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f96e78c0e092bb2f6ee4208c41764176/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:21:5-36:19
+MERGED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:21:5-36:19
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/827820e4d7fc41fdca25813f531a663f/transformed/play-services-location-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/827820e4d7fc41fdca25813f531a663f/transformed/play-services-location-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/2172cbd1ace20bf0f3cec8f6932f8852/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/2172cbd1ace20bf0f3cec8f6932f8852/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/29932f166b81a116c55a0385a87a172f/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/29932f166b81a116c55a0385a87a172f/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:10:5-14:19
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:10:5-14:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/29f7301748497641ad17daa098483f49/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/29f7301748497641ad17daa098483f49/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/0fd1980b63c25e4e093dfc52b3be0416/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/0fd1980b63c25e4e093dfc52b3be0416/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+	android:extractNativeLibs
+		INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:65:9-35
+	android:label
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:63:9-32
+	tools:ignore
+		ADDED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:10:18-69
+	android:roundIcon
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:64:9-54
+	tools:targetApi
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:67:9-29
+	android:icon
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:62:9-43
+	android:allowBackup
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:61:9-35
+	android:theme
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:66:9-45
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:60:9-35
+activity#com.oorbitt.launcher.LauncherActivity
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:69:9-86:20
+	android:screenOrientation
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:76:13-49
+	android:clearTaskOnLaunch
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:73:13-45
+	android:stateNotNeeded
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:74:13-42
+	android:launchMode
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:72:13-44
+	android:windowSoftInputMode
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:78:13-55
+	android:exported
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:71:13-36
+	android:resumeWhilePausing
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:75:13-46
+	android:configChanges
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:77:13-134
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:70:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:80:13-85:29
+action#android.intent.action.MAIN
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:81:17-69
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:81:25-66
+category#android.intent.category.HOME
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:82:17-73
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:82:27-70
+category#android.intent.category.DEFAULT
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:83:17-76
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:83:27-73
+category#android.intent.category.LAUNCHER
+ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:84:17-77
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:84:27-74
+uses-sdk
+INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml
+INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml
+MERGED from [:feature-home] /home/pocketpc/Projects/oorbE/feature-home/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-home] /home/pocketpc/Projects/oorbE/feature-home/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-drawer] /home/pocketpc/Projects/oorbE/feature-drawer/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-drawer] /home/pocketpc/Projects/oorbE/feature-drawer/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-search] /home/pocketpc/Projects/oorbE/feature-search/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-search] /home/pocketpc/Projects/oorbE/feature-search/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-settings] /home/pocketpc/Projects/oorbE/feature-settings/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-settings] /home/pocketpc/Projects/oorbE/feature-settings/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-gesture] /home/pocketpc/Projects/oorbE/feature-gesture/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-gesture] /home/pocketpc/Projects/oorbE/feature-gesture/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-iconpack] /home/pocketpc/Projects/oorbE/feature-iconpack/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-iconpack] /home/pocketpc/Projects/oorbE/feature-iconpack/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-theme] /home/pocketpc/Projects/oorbE/feature-theme/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-theme] /home/pocketpc/Projects/oorbE/feature-theme/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-backup] /home/pocketpc/Projects/oorbE/feature-backup/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-backup] /home/pocketpc/Projects/oorbE/feature-backup/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-shizuku] /home/pocketpc/Projects/oorbE/feature-shizuku/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-shizuku] /home/pocketpc/Projects/oorbE/feature-shizuku/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-premium] /home/pocketpc/Projects/oorbE/feature-premium/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-premium] /home/pocketpc/Projects/oorbE/feature-premium/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-applock] /home/pocketpc/Projects/oorbE/feature-applock/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-applock] /home/pocketpc/Projects/oorbE/feature-applock/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-profiles] /home/pocketpc/Projects/oorbE/feature-profiles/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-profiles] /home/pocketpc/Projects/oorbE/feature-profiles/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-vault] /home/pocketpc/Projects/oorbE/feature-vault/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-vault] /home/pocketpc/Projects/oorbE/feature-vault/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-wellness] /home/pocketpc/Projects/oorbE/feature-wellness/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-wellness] /home/pocketpc/Projects/oorbE/feature-wellness/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-stylehub] /home/pocketpc/Projects/oorbE/feature-stylehub/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-stylehub] /home/pocketpc/Projects/oorbE/feature-stylehub/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core-data] /home/pocketpc/Projects/oorbE/core-data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core-data] /home/pocketpc/Projects/oorbE/core-data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core-ui] /home/pocketpc/Projects/oorbE/core-ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core-ui] /home/pocketpc/Projects/oorbE/core-ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core-platform] /home/pocketpc/Projects/oorbE/core-platform/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core-platform] /home/pocketpc/Projects/oorbE/core-platform/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core-security] /home/pocketpc/Projects/oorbE/core-security/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core-security] /home/pocketpc/Projects/oorbE/core-security/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-compose:4.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/3c3b007763287da89eff55cbad8d0ed4/transformed/koin-androidx-compose-4.0.1/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-compose:4.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/3c3b007763287da89eff55cbad8d0ed4/transformed/koin-androidx-compose-4.0.1/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:4.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/f9a3fa803b21bb88dbb26088b49eaec2/transformed/koin-android-4.0.1/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:4.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/f9a3fa803b21bb88dbb26088b49eaec2/transformed/koin-android-4.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] /home/pocketpc/.gradle/caches/8.11.1/transforms/807869a86f6b69589ade368a02686976/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] /home/pocketpc/.gradle/caches/8.11.1/transforms/807869a86f6b69589ade368a02686976/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f96e78c0e092bb2f6ee4208c41764176/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f96e78c0e092bb2f6ee4208c41764176/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/70cd0a42a8795d273e8d1ed42b4b34f4/transformed/coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/70cd0a42a8795d273e8d1ed42b4b34f4/transformed/coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/27277b8a34fe1871b41d2d38a760a960/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/27277b8a34fe1871b41d2d38a760a960/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/e1873017cb6f39b4647a60fde0d9c679/transformed/coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/e1873017cb6f39b4647a60fde0d9c679/transformed/coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/29d17d2619bc0e4026fe43a50c96f9cd/transformed/coil-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/29d17d2619bc0e4026fe43a50c96f9cd/transformed/coil-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/243122ffc4db3fecab715ce57fb09462/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/243122ffc4db3fecab715ce57fb09462/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/228157824ff1fb2aa90970df94bbd55f/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/228157824ff1fb2aa90970df94bbd55f/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/pocketpc/.gradle/caches/8.11.1/transforms/7d16bac4f8f0210f9adbf9ec60f1aa4e/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/pocketpc/.gradle/caches/8.11.1/transforms/7d16bac4f8f0210f9adbf9ec60f1aa4e/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/55bc4f9c1f04e2fd7286d9aed3c963b1/transformed/viewpager2-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/55bc4f9c1f04e2fd7286d9aed3c963b1/transformed/viewpager2-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/14a053e4bf9e4107bfdb121c231f8d08/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/14a053e4bf9e4107bfdb121c231f8d08/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6facde0155e1082d858fcf8a70dbbb2/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6facde0155e1082d858fcf8a70dbbb2/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/11fa0fd77e5519d70d1164d378f3439d/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/11fa0fd77e5519d70d1164d378f3439d/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/600e7b83a986517ea7ce0077a08a142d/transformed/navigation-common-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/600e7b83a986517ea7ce0077a08a142d/transformed/navigation-common-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/064d4e139ba0016806cf8828d870cf11/transformed/navigation-runtime-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/064d4e139ba0016806cf8828d870cf11/transformed/navigation-runtime-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/249c86024d0ea936e567125c62b18db7/transformed/navigation-common-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/249c86024d0ea936e567125c62b18db7/transformed/navigation-common-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/9bd5365d818b6cf5d59fdd1147f7e093/transformed/navigation-runtime-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/9bd5365d818b6cf5d59fdd1147f7e093/transformed/navigation-runtime-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/a09635e70d9b0dd7996a837de418a59c/transformed/navigation-compose-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/a09635e70d9b0dd7996a837de418a59c/transformed/navigation-compose-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [com.android.billingclient:billing-ktx:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/1a12aa898242da33ebd223e033f4e59d/transformed/billing-ktx-7.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.billingclient:billing-ktx:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/1a12aa898242da33ebd223e033f4e59d/transformed/billing-ktx-7.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/827820e4d7fc41fdca25813f531a663f/transformed/play-services-location-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/827820e4d7fc41fdca25813f531a663f/transformed/play-services-location-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/2172cbd1ace20bf0f3cec8f6932f8852/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/2172cbd1ace20bf0f3cec8f6932f8852/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/29932f166b81a116c55a0385a87a172f/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/29932f166b81a116c55a0385a87a172f/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/51c2cd87cb7b3e1156e1e696d65f74ca/transformed/fragment-1.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/51c2cd87cb7b3e1156e1e696d65f74ca/transformed/fragment-1.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/cdf4a79c4e655486f62af1a33cbe0e25/transformed/fragment-ktx-1.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/cdf4a79c4e655486f62af1a33cbe0e25/transformed/fragment-ktx-1.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/pocketpc/.gradle/caches/8.11.1/transforms/75f40acf92adf9fdbbec851c4c28771f/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/pocketpc/.gradle/caches/8.11.1/transforms/75f40acf92adf9fdbbec851c4c28771f/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.3] /home/pocketpc/.gradle/caches/8.11.1/transforms/8b91086132f9a7489def4adc280e2e6a/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /home/pocketpc/.gradle/caches/8.11.1/transforms/8b91086132f9a7489def4adc280e2e6a/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/9226ed1a19c16c480d4acb7f7fdc3abb/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/9226ed1a19c16c480d4acb7f7fdc3abb/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/4a778de3cfefd0e2053b34a590c62a9e/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/4a778de3cfefd0e2053b34a590c62a9e/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6588cb875808a429cd18d94648f2871b/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6588cb875808a429cd18d94648f2871b/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/cf4ca4b43f0efdb22cf87c554d95fb5d/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/cf4ca4b43f0efdb22cf87c554d95fb5d/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/9acda1f33270c851c3a2e97e9ac1e7c0/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/9acda1f33270c851c3a2e97e9ac1e7c0/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/4d91548f03682a65a25482a60aafab2e/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/4d91548f03682a65a25482a60aafab2e/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6233e8cb99c7f798cd195f01e1df2601/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6233e8cb99c7f798cd195f01e1df2601/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/4c17a971edde0f908164a9f6d008ff21/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/4c17a971edde0f908164a9f6d008ff21/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/686bf4ac13609bdc755cb79c99acc35c/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/686bf4ac13609bdc755cb79c99acc35c/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/41e43b98b2a50f135241594a2c9c75a5/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/41e43b98b2a50f135241594a2c9c75a5/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/a03679e26bd676c8903a6ee310589371/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/a03679e26bd676c8903a6ee310589371/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/48b88b0a693a72d29ff1f4180d538c1b/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/48b88b0a693a72d29ff1f4180d538c1b/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /home/pocketpc/.gradle/caches/8.11.1/transforms/104f6e5c1e4e08ef80d001b1496857b8/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /home/pocketpc/.gradle/caches/8.11.1/transforms/104f6e5c1e4e08ef80d001b1496857b8/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/42af754980296b4299230ab1e4ef7d0c/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/42af754980296b4299230ab1e4ef7d0c/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/61e13d70452b18d191610f71c4c66052/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/61e13d70452b18d191610f71c4c66052/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/9d7e32324ad09454e28626407685ea58/transformed/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/9d7e32324ad09454e28626407685ea58/transformed/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/5669d021baed0ee754bdf106d9f4dcb2/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/5669d021baed0ee754bdf106d9f4dcb2/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/409b509cb487a116c398e213d65cfe19/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/409b509cb487a116c398e213d65cfe19/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/7fba071a569e80a7444a8af2de5ce1b9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/7fba071a569e80a7444a8af2de5ce1b9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/5e56c98a47e080015e3362de11597bc2/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/5e56c98a47e080015e3362de11597bc2/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/668421b23370d20108eadf1ee53255c7/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/668421b23370d20108eadf1ee53255c7/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/85d1a6637dfe4c403cbb9933619addf8/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/85d1a6637dfe4c403cbb9933619addf8/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/1e2015130a14901ce7a8667c663a32bd/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/1e2015130a14901ce7a8667c663a32bd/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/75ec04a5194cd77902c4d158fa55e3cc/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/75ec04a5194cd77902c4d158fa55e3cc/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/6db71c592820af446a01ac9b7b11c199/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/6db71c592820af446a01ac9b7b11c199/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/0e0bbf7bed0dbb86919ff7b29eeb4acc/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/0e0bbf7bed0dbb86919ff7b29eeb4acc/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/371ea0ca743b912ccb50b466391ad12e/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/371ea0ca743b912ccb50b466391ad12e/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/6a5700a7cb08a6bc175d482959855d3a/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/6a5700a7cb08a6bc175d482959855d3a/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/ed51862c06a00050458ecfe078ffa7dc/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/ed51862c06a00050458ecfe078ffa7dc/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/3fb1f29a225658e9fd7c356d13500e15/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/3fb1f29a225658e9fd7c356d13500e15/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/26a2afd1678369884995802efeae3f6f/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/26a2afd1678369884995802efeae3f6f/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/bbbfc2c48354967e708b7c107bf442b8/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/bbbfc2c48354967e708b7c107bf442b8/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/502d4ef195d3596fa5d17a3215886ce6/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/502d4ef195d3596fa5d17a3215886ce6/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/728fbd6736df74f34e39601f1ba70c0e/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/728fbd6736df74f34e39601f1ba70c0e/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/3540b92f549aeec0c32d8130a33653a3/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/3540b92f549aeec0c32d8130a33653a3/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/e78dbd733623c4798be48160a68f08cb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/e78dbd733623c4798be48160a68f08cb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/9724028e716028770de04c1c3c899d32/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/9724028e716028770de04c1c3c899d32/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/8f4e1bbf99b4085424648e070e2b41e9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/8f4e1bbf99b4085424648e070e2b41e9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/955d1b44e37a8c0e3aae7b48f05c91e8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/955d1b44e37a8c0e3aae7b48f05c91e8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/a6ba522600c4aec9c50cf76eba8d4f57/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/a6ba522600c4aec9c50cf76eba8d4f57/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/8ef28261aaad501043b6393b7fcb053f/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/8ef28261aaad501043b6393b7fcb053f/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/68517f5ac0726308cfa20e47c833facc/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/68517f5ac0726308cfa20e47c833facc/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [org.jetbrains.androidx.core:core-bundle-android-debug:1.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/ff778b5e2e67be35d1d580eb12ca773f/transformed/core-bundle-debug/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.androidx.core:core-bundle-android-debug:1.0.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/ff778b5e2e67be35d1d580eb12ca773f/transformed/core-bundle-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d9b82c49729fbc7abd1da16856bb91c5/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d9b82c49729fbc7abd1da16856bb91c5/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/3408075106e9dcb379da5486a5673c97/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/3408075106e9dcb379da5486a5673c97/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/cce8b36a613f5734e8a9d475d9f0fdaf/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/cce8b36a613f5734e8a9d475d9f0fdaf/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/4d41e98e5eb955f2e0bbba5a89b9a340/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/4d41e98e5eb955f2e0bbba5a89b9a340/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/69592f885aaa263c04e7f15d2b59e23d/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/69592f885aaa263c04e7f15d2b59e23d/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6f763ce38ed30a7700cb098ccfd2cdcd/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6f763ce38ed30a7700cb098ccfd2cdcd/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6d5223d8bf1e1fb8271c180730b8ad35/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/6d5223d8bf1e1fb8271c180730b8ad35/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/3f74dd929bb3b6dfb3db72da3c3a26e8/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/3f74dd929bb3b6dfb3db72da3c3a26e8/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/5cec42a18ef3104b3fb71cb6c52db70d/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/5cec42a18ef3104b3fb71cb6c52db70d/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /home/pocketpc/.gradle/caches/8.11.1/transforms/9c785b5d87c83f26835e22eb1476459b/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /home/pocketpc/.gradle/caches/8.11.1/transforms/9c785b5d87c83f26835e22eb1476459b/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:6:5-44
+MERGED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:6:5-44
+MERGED from [dev.rikka.shizuku:api:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/d1a39eecdc37878e2f278ddcbfe067a8/transformed/api-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [dev.rikka.shizuku:api:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/d1a39eecdc37878e2f278ddcbfe067a8/transformed/api-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/63c2d3b3438cdd0cbb24eebe3104ef0b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/63c2d3b3438cdd0cbb24eebe3104ef0b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/ab8765dd30a1d172c7876b28be2fbfeb/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/ab8765dd30a1d172c7876b28be2fbfeb/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [dev.rikka.shizuku:shared:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/37422961b1329d474ed322eabee8142e/transformed/shared-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [dev.rikka.shizuku:shared:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/37422961b1329d474ed322eabee8142e/transformed/shared-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/8a193bf232097783c8f83a28c7a3061e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/8a193bf232097783c8f83a28c7a3061e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/29f7301748497641ad17daa098483f49/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/29f7301748497641ad17daa098483f49/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/6b84852a758720fc7a5c181fdec11d4f/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/6b84852a758720fc7a5c181fdec11d4f/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/0fd1980b63c25e4e093dfc52b3be0416/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/0fd1980b63c25e4e093dfc52b3be0416/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/a6fb9d0c0995a4710bdfddb642f831df/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/a6fb9d0c0995a4710bdfddb642f831df/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/0f061aca97d70accf8d2d47b2283f7b2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/0f061aca97d70accf8d2d47b2283f7b2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/4ffc0864b59846ce18baf0dda5d62988/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/4ffc0864b59846ce18baf0dda5d62988/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/526679e206bf8f81e7aec7e26fa39bf9/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/526679e206bf8f81e7aec7e26fa39bf9/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/b473ba4ee573cbde0f7555c1dde7eeeb/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/b473ba4ee573cbde0f7555c1dde7eeeb/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/abb1eaeb026b4cb5d43ab2655b273334/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/abb1eaeb026b4cb5d43ab2655b273334/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/9b2da180de1e4f6fbb9924a197343954/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/9b2da180de1e4f6fbb9924a197343954/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [dev.rikka.shizuku:aidl:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/7238ed5687fd0ce2d022f88589275285/transformed/aidl-13.1.5/AndroidManifest.xml:5:5-44
+MERGED from [dev.rikka.shizuku:aidl:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/7238ed5687fd0ce2d022f88589275285/transformed/aidl-13.1.5/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-75
+service#com.oorbitt.launcher.orbspace.ScrollTrackerService
+ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:9-23:19
+	android:label
+		ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-52
+	android:exported
+		ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-37
+	android:permission
+		ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-79
+	android:name
+		ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-78
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-18:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:17-92
+	android:name
+		ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:25-89
+meta-data#android.accessibilityservice
+ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-22:66
+	android:resource
+		ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:17-63
+	android:name
+		ADDED from [:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:17-60
+activity#com.oorbitt.launcher.onboarding.OnboardingActivity
+ADDED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-17:20
+	android:exported
+		ADDED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-36
+	android:theme
+		ADDED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-52
+	android:name
+		ADDED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from [:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-16:29
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [:core-security] /home/pocketpc/Projects/oorbE/core-security/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-72
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] /home/pocketpc/.gradle/caches/8.11.1/transforms/807869a86f6b69589ade368a02686976/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:22:5-72
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] /home/pocketpc/.gradle/caches/8.11.1/transforms/807869a86f6b69589ade368a02686976/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from [:core-security] /home/pocketpc/Projects/oorbE/core-security/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.2.0-alpha05] /home/pocketpc/.gradle/caches/8.11.1/transforms/807869a86f6b69589ade368a02686976/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.2.0-alpha05] /home/pocketpc/.gradle/caches/8.11.1/transforms/807869a86f6b69589ade368a02686976/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:22-71
+uses-permission#com.android.vending.BILLING
+ADDED from [com.android.billingclient:billing-ktx:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/1a12aa898242da33ebd223e033f4e59d/transformed/billing-ktx-7.1.1/AndroidManifest.xml:9:5-67
+MERGED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:10:5-67
+MERGED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [com.android.billingclient:billing-ktx:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/1a12aa898242da33ebd223e033f4e59d/transformed/billing-ktx-7.1.1/AndroidManifest.xml:9:22-64
+queries
+ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:12:5-19:15
+intent#action:name:com.android.vending.billing.InAppBillingService.BIND
+ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:13:9-15:18
+action#com.android.vending.billing.InAppBillingService.BIND
+ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:14:13-91
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:14:21-88
+intent#action:name:com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND
+ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:16:9-18:18
+action#com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND
+ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:17:13-116
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:17:21-113
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:22:9-24:37
+	android:value
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:24:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:23:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:26:9-30:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:29:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:28:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:30:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:27:13-78
+activity#com.android.billingclient.api.ProxyBillingActivityV2
+ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:31:9-35:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:34:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:33:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:35:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:32:13-80
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/29f7301748497641ad17daa098483f49/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/29f7301748497641ad17daa098483f49/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#com.oorbitt.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#com.oorbitt.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+uses-permission#moe.shizuku.manager.permission.API_V23
+ADDED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:8:22-75
+meta-data#moe.shizuku.client.V3_SUPPORT
+ADDED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:11:9-13:36
+	android:value
+		ADDED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:13:13-33
+	android:name
+		ADDED from [dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:12:13-57
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:22-76
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:33:13-132

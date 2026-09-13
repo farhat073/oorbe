@@ -1,0 +1,419 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oorbitt.launcher"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Launcher needs to query all installed apps -->
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:6:5-7:53
+12-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:6:22-74
+13
+14    <!-- Request package uninstallation -->
+15    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+15-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:10:5-82
+15-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:10:22-79
+16
+17    <!-- Widget hosting -->
+18    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+18-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:13:5-73
+18-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:13:22-70
+19
+20    <!-- Notification badges -->
+21    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+21-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:16:5-93
+21-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:16:22-90
+22
+23    <!-- Wallpaper -->
+24    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+24-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:19:5-72
+24-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:19:22-69
+25    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+25-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:20:5-78
+25-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:20:22-75
+26
+27    <!-- Usage stats for smart features -->
+28    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+28-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:23:5-24:47
+28-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:23:22-75
+29
+30    <!-- Vibration for haptics -->
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:27:5-66
+31-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:27:22-63
+32
+33    <!-- Audio recording for vault -->
+34    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+34-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:30:5-71
+34-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:30:22-68
+35
+36    <!-- Camera for vault photos -->
+37    <uses-permission android:name="android.permission.CAMERA" />
+37-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:33:5-65
+37-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:33:22-62
+38
+39    <!-- Internet for web search fallback, billing -->
+40    <uses-permission android:name="android.permission.INTERNET" />
+40-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:36:5-67
+40-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:36:22-64
+41
+42    <!-- Torch toggle -->
+43    <uses-permission android:name="android.permission.FLASHLIGHT" />
+43-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:39:5-69
+43-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:39:22-66
+44
+45    <!-- Expand notifications / quick settings -->
+46    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+46-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:42:5-76
+46-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:42:22-73
+47
+48    <!-- Bluetooth detection for smart surfaces -->
+49    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+49-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:45:5-76
+49-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:45:22-73
+50
+51    <!-- Calendar for smart surfaces -->
+52    <uses-permission android:name="android.permission.READ_CALENDAR" />
+52-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:48:5-72
+52-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:48:22-69
+53
+54    <!-- Universal Search: Contacts and WhatsApp -->
+55    <uses-permission android:name="android.permission.READ_CONTACTS" />
+55-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:51:5-72
+55-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:51:22-69
+56
+57    <!-- Universal Search: Files (MediaStore) -->
+58    <uses-permission
+58-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:54:5-107
+59        android:name="android.permission.READ_EXTERNAL_STORAGE"
+59-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:54:22-77
+60        android:maxSdkVersion="32" />
+60-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:54:78-104
+61    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+61-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:55:5-76
+61-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:55:22-73
+62    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+62-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:56:5-75
+62-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:56:22-72
+63    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+63-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:57:5-75
+63-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:57:22-72
+64    <!-- Needed for drawing over other apps if we need to show a bubble, though OrbSpace is primarily in the launcher. -->
+65    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+65-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
+65-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-75
+66    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+66-->[:core-security] /home/pocketpc/Projects/oorbE/core-security/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-72
+66-->[:core-security] /home/pocketpc/Projects/oorbE/core-security/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-69
+67    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+67-->[androidx.biometric:biometric:1.2.0-alpha05] /home/pocketpc/.gradle/caches/8.11.1/transforms/807869a86f6b69589ade368a02686976/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:5-74
+67-->[androidx.biometric:biometric:1.2.0-alpha05] /home/pocketpc/.gradle/caches/8.11.1/transforms/807869a86f6b69589ade368a02686976/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:22-71
+68    <uses-permission android:name="com.android.vending.BILLING" />
+68-->[com.android.billingclient:billing-ktx:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/1a12aa898242da33ebd223e033f4e59d/transformed/billing-ktx-7.1.1/AndroidManifest.xml:9:5-67
+68-->[com.android.billingclient:billing-ktx:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/1a12aa898242da33ebd223e033f4e59d/transformed/billing-ktx-7.1.1/AndroidManifest.xml:9:22-64
+69
+70    <queries>
+70-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:12:5-19:15
+71        <intent>
+71-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:13:9-15:18
+72            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+72-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:14:13-91
+72-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:14:21-88
+73        </intent>
+74        <intent>
+74-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:16:9-18:18
+75            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND" />
+75-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:17:13-116
+75-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:17:21-113
+76        </intent>
+77    </queries>
+78
+79    <permission
+79-->[androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+80        android:name="com.oorbitt.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+80-->[androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+81        android:protectionLevel="signature" />
+81-->[androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+82
+83    <uses-permission android:name="com.oorbitt.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+83-->[androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+83-->[androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+84    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+84-->[dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:8:5-78
+84-->[dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:8:22-75
+85    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+86    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+86-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+86-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:22-76
+87
+88    <application
+88-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:59:5-88:19
+89        android:name="com.oorbitt.launcher.OorbittApp"
+89-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:60:9-35
+90        android:allowBackup="true"
+90-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:61:9-35
+91        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+91-->[androidx.core:core:1.15.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/d99025b91941250208fe750322564661/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+92        android:debuggable="true"
+93        android:extractNativeLibs="false"
+94        android:icon="@mipmap/ic_launcher"
+94-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:62:9-43
+95        android:label="Oorbitt"
+95-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:63:9-32
+96        android:roundIcon="@mipmap/ic_launcher_round"
+96-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:64:9-54
+97        android:supportsRtl="true"
+97-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:65:9-35
+98        android:theme="@style/Theme.Oorbitt" >
+98-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:66:9-45
+99        <activity
+99-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:69:9-86:20
+100            android:name="com.oorbitt.launcher.LauncherActivity"
+100-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:70:13-45
+101            android:clearTaskOnLaunch="true"
+101-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:73:13-45
+102            android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenSize|screenLayout|smallestScreenSize"
+102-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:77:13-134
+103            android:exported="true"
+103-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:71:13-36
+104            android:launchMode="singleTask"
+104-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:72:13-44
+105            android:resumeWhilePausing="true"
+105-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:75:13-46
+106            android:screenOrientation="nosensor"
+106-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:76:13-49
+107            android:stateNotNeeded="true"
+107-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:74:13-42
+108            android:windowSoftInputMode="adjustResize" >
+108-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:78:13-55
+109            <intent-filter>
+109-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:80:13-85:29
+110                <action android:name="android.intent.action.MAIN" />
+110-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:81:17-69
+110-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:81:25-66
+111
+112                <category android:name="android.intent.category.HOME" />
+112-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:82:17-73
+112-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:82:27-70
+113                <category android:name="android.intent.category.DEFAULT" />
+113-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:83:17-76
+113-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:83:27-73
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:84:17-77
+114-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:84:27-74
+115            </intent-filter>
+116        </activity>
+117
+118        <service
+118-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:9-23:19
+119            android:name="com.oorbitt.launcher.orbspace.ScrollTrackerService"
+119-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-78
+120            android:exported="false"
+120-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-37
+121            android:label="OrbSpace Scroll Tracker"
+121-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-52
+122            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+122-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-79
+123            <intent-filter>
+123-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-18:29
+124                <action android:name="android.accessibilityservice.AccessibilityService" />
+124-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:17-92
+124-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:25-89
+125            </intent-filter>
+126
+127            <meta-data
+127-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-22:66
+128                android:name="android.accessibilityservice"
+128-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:17-60
+129                android:resource="@xml/scroll_tracker_service" />
+129-->[:feature-orbspace] /home/pocketpc/Projects/oorbE/feature-orbspace/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:17-63
+130        </service>
+131
+132        <activity
+132-->[:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-17:20
+133            android:name="com.oorbitt.launcher.onboarding.OnboardingActivity"
+133-->[:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-78
+134            android:exported="true"
+134-->[:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-36
+135            android:theme="@style/Theme.Onboarding" >
+135-->[:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-52
+136            <intent-filter>
+136-->[:feature-onboarding] /home/pocketpc/Projects/oorbE/feature-onboarding/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-16:29
+137                <action android:name="android.intent.action.MAIN" />
+137-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:81:17-69
+137-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:81:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:83:17-76
+139-->/home/pocketpc/Projects/oorbE/app/src/main/AndroidManifest.xml:83:27-73
+140            </intent-filter>
+141        </activity>
+142
+143        <meta-data
+143-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:22:9-24:37
+144            android:name="com.google.android.play.billingclient.version"
+144-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:23:13-73
+145            android:value="7.1.1" />
+145-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:24:13-34
+146
+147        <activity
+147-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:26:9-30:75
+148            android:name="com.android.billingclient.api.ProxyBillingActivity"
+148-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:27:13-78
+149            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+149-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:28:13-96
+150            android:exported="false"
+150-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:29:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:30:13-72
+152        <activity
+152-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:31:9-35:75
+153            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+153-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:32:13-80
+154            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+154-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:33:13-96
+155            android:exported="false"
+155-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:34:13-37
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.android.billingclient:billing:7.1.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/daed9e720593304a3c2d189328c00e27/transformed/billing-7.1.1/AndroidManifest.xml:35:13-72
+157        <activity
+157-->[com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+158            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+158-->[com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+160            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+160-->[com.google.android.gms:play-services-base:18.5.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/f37e23886f32bc58750f3054203d0927/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+161
+162        <meta-data
+162-->[com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+163            android:name="com.google.android.gms.version"
+163-->[com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+164            android:value="@integer/google_play_services_version" />
+164-->[com.google.android.gms:play-services-basement:18.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c025ccc7fb7cfdc1180de40fcd651669/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+165
+166        <activity
+166-->[androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+167            android:name="androidx.compose.ui.tooling.PreviewActivity"
+167-->[androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+168            android:exported="true" />
+168-->[androidx.compose.ui:ui-tooling-android:1.7.6] /home/pocketpc/.gradle/caches/8.11.1/transforms/eb7e271b1117657ab77f7bc341530f76/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+169
+170        <provider
+170-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+171            android:name="androidx.startup.InitializationProvider"
+171-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:25:13-67
+172            android:authorities="com.oorbitt.launcher.androidx-startup"
+172-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:26:13-68
+173            android:exported="false" >
+173-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:27:13-37
+174            <meta-data
+174-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+175                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+175-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+176                android:value="androidx.startup" />
+176-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pocketpc/.gradle/caches/8.11.1/transforms/a8a0654db0ff3905a2f4f4fde28dfafd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+177            <meta-data
+177-->[androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+178                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+178-->[androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+179                android:value="androidx.startup" />
+179-->[androidx.emoji2:emoji2:1.3.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c27d28f9e47d1a77716b191898ed3acb/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+180            <meta-data
+180-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+181                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+181-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+182                android:value="androidx.startup" />
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+183        </provider>
+184
+185        <service
+185-->[androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+186            android:name="androidx.room.MultiInstanceInvalidationService"
+186-->[androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+187            android:directBootAware="true"
+187-->[androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+188            android:exported="false" />
+188-->[androidx.room:room-runtime:2.6.1] /home/pocketpc/.gradle/caches/8.11.1/transforms/e2b8b59f51d54f029b9d45a73e8eae12/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+189
+190        <meta-data
+190-->[dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:11:9-13:36
+191            android:name="moe.shizuku.client.V3_SUPPORT"
+191-->[dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:12:13-57
+192            android:value="true" />
+192-->[dev.rikka.shizuku:provider:13.1.5] /home/pocketpc/.gradle/caches/8.11.1/transforms/5510ef294bf571d599ed414fc33ffac8/transformed/provider-13.1.5/AndroidManifest.xml:13:13-33
+193
+194        <receiver
+194-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+195            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+195-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+196            android:directBootAware="false"
+196-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+197            android:enabled="true"
+197-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+198            android:exported="true"
+198-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+199            android:permission="android.permission.DUMP" >
+199-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+200            <intent-filter>
+200-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+201                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+201-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+201-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+202            </intent-filter>
+203            <intent-filter>
+203-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+204                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+204-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+204-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+205            </intent-filter>
+206            <intent-filter>
+206-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+207                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+207-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+207-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+208            </intent-filter>
+209            <intent-filter>
+209-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+210                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+210-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+210-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pocketpc/.gradle/caches/8.11.1/transforms/c366cd8a14c6b24b53127dd92469c747/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+211            </intent-filter>
+212        </receiver>
+213
+214        <service
+214-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+215            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+215-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+216            android:exported="false" >
+216-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+217            <meta-data
+217-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+218                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+218-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+219                android:value="cct" />
+219-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/27896368fae53e3cd43348da6efd10c1/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+220        </service>
+221        <service
+221-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+222            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+222-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+223            android:exported="false"
+223-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+224            android:permission="android.permission.BIND_JOB_SERVICE" >
+224-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+225        </service>
+226
+227        <receiver
+227-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+228            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+228-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+229            android:exported="false" />
+229-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/pocketpc/.gradle/caches/8.11.1/transforms/c6f1b4a32ac7e3e805bb55bd4e5b9355/transformed/transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+230    </application>
+231
+232</manifest>

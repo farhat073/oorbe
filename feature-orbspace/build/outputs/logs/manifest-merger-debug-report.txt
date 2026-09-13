@@ -1,0 +1,44 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		INJECTED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:7:5-20:19
+service#com.oorbitt.launcher.orbspace.ScrollTrackerService
+ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:8:9-19:19
+	android:label
+		ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:11:13-52
+	android:exported
+		ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:10:13-37
+	android:permission
+		ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:12:13-79
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:9:13-49
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:13:13-15:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:14:17-92
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:14:25-89
+meta-data#android.accessibilityservice
+ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:16:13-18:66
+	android:resource
+		ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:18:17-63
+	android:name
+		ADDED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml:17:17-60
+uses-sdk
+INJECTED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml
+INJECTED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pocketpc/Projects/oorbE/feature-orbspace/src/main/AndroidManifest.xml

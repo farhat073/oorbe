@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oorbitt.launcher.orbspace" >
+
+    <uses-sdk android:minSdkVersion="26" />
+
+    <!-- Needed for drawing over other apps if we need to show a bubble, though OrbSpace is primarily in the launcher. -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application>
+        <service
+            android:name="com.oorbitt.launcher.orbspace.ScrollTrackerService"
+            android:exported="false"
+            android:label="OrbSpace Scroll Tracker"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/scroll_tracker_service" />
+        </service>
+    </application>
+
+</manifest>

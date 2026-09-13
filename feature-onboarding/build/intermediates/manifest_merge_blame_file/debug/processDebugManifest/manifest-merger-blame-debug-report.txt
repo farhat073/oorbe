@@ -1,0 +1,30 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oorbitt.launcher.onboarding" >
+4
+5    <uses-sdk android:minSdkVersion="28" />
+6
+7    <application>
+7-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:3:5-13:19
+8        <activity
+8-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:4:9-12:20
+9            android:name="com.oorbitt.launcher.onboarding.OnboardingActivity"
+9-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:5:13-78
+10            android:exported="true"
+10-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:7:13-36
+11            android:theme="@style/Theme.Onboarding" >
+11-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:6:13-52
+12            <intent-filter>
+12-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:8:13-11:29
+13                <action android:name="android.intent.action.MAIN" />
+13-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:9:17-69
+13-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:9:25-66
+14
+15                <category android:name="android.intent.category.DEFAULT" />
+15-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:10:17-76
+15-->/home/pocketpc/Projects/oorbE/feature-onboarding/src/main/AndroidManifest.xml:10:27-73
+16            </intent-filter>
+17        </activity>
+18    </application>
+19
+20</manifest>

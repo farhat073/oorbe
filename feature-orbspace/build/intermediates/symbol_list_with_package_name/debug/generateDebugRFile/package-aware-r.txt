@@ -1,0 +1,3 @@
+com.oorbitt.launcher.orbspace
+string accessibility_service_description
+xml scroll_tracker_service
